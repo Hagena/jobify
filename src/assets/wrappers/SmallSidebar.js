@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   @media (min-width: 992px) {
@@ -39,7 +39,7 @@ const Wrapper = styled.aside`
     background: transparent;
     border-color: transparent;
     font-size: 2rem;
-    color: var(--red-dark);
+    color: var(--primary-500);
     cursor: pointer;
   }
   .nav-links {
@@ -65,7 +65,10 @@ const Wrapper = styled.aside`
     place-items: center;
   }
   .active {
-    color: var(--primary-500);
+    color: var(--primary-900);
+    background-color: var(--primary-100);
+    border-radius: var(--border-radius);
+    padding: 7px 10px;
   }
 `;
 export default Wrapper;

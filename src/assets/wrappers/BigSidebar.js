@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.aside`
   display: none;
@@ -52,7 +52,10 @@ const Wrapper = styled.aside`
       place-items: center;
     }
     .active {
-      color: var(--primary-500);
+      color: var(--primary-900);
+      background-color: var(--primary-100);
+      border-radius: var(--border-radius);
+      margin: 0 15px;
     }
     .pending {
       background: var(--background-color);
